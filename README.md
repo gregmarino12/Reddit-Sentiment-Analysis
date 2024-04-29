@@ -1,4 +1,4 @@
-# Reddit Sentiment Analysis Using Praw API 
+# Reddit Sentiment Analysis 
 A dashboard displaying the sentiment and popularity of chosen subreddit(s). Retrieves subreddit, submission, comment, and Redditor data tables from the Praw Reddit API, which can be loaded into a relational database, exported to CSV, or used in a web application. 
 
 Please note this script works within the limits of Praw's free tier, which is 100 API calls per minute. Several measures are taken to limit the number of necessary API calls and consequentially limit the dataset itself. This repo filters the top 500 submissions and their comments by a list of keywords before adding them to our dataset. While this repo may provide insight into a chosen community on Reddit, in no way does it fully represent the entire community. 
