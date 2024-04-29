@@ -1,8 +1,6 @@
-os
-praw
-nltk
-nltk
 pandas
 sqlalchemy
-urllib
 pyodbc
+urllib
+praw
+nltk
