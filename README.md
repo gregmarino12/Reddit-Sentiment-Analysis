@@ -1,5 +1,5 @@
 # Reddit Sentiment Analysis 
-A dashboard displaying the sentiment and popularity of chosen subreddit(s). Retrieves subreddit, submission, comment, and Redditor data tables from the Praw Reddit API, which can be loaded into a relational database, exported to CSV, or used in a web application. 
+This GitHub repository houses an ETL process that leverages the Praw Reddit API to extract data from subreddits, submissions, comments, and Redditor profiles. The extracted data can be  organized into a relational database, exported into CSV format for further analysis, or integrated into web applications for dynamic use.
 
 ## Packages Used
 Use Python 3.12. The packages/libraries used are:
