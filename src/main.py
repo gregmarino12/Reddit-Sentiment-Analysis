@@ -274,8 +274,8 @@ def save_to_database(subreddit_df, submission_df, comment_df, author_df,):
     author_df.to_sql(name=temp_author, con=engine, if_exists='replace', index=False, dtype=author_dtypes)
 
 def get_connection_string():
-    server = 'TABLET-JQOOCB8O\MYSQLSERVER'
-    database = 'reddit'
+    server = 'YOUR_SERVER'
+    database = 'reddit' # reddit database must already be created, check sql files
     params = urllib.parse.quote_plus(
         f"DRIVER={{ODBC Driver 17 for SQL Server}};SERVER={server};DATABASE={database};Trusted_Connection=yes")
     return f"mssql+pyodbc:///?odbc_connect={params}"
